@@ -186,7 +186,7 @@ def parse_args():
 args = parse_args()
 
 # Load the spreadsheet
-file_path = 'khis_data_elements.xlsx'
+file_path = 'khis_sampling_elements.xlsx'
 spreadsheet_data = pd.read_excel(file_path)
 
 # Clean up column names and filter the data based on command-line arguments
